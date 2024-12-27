@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 5: Responsive Web Design</title>
+    <link rel="stylesheet" href="style4.css"> 
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#branches">Cabang</a></li>
+            <li><a href="#promotions">Promosi</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+    <h1>HOTEL MEWAH SEJAHTERA</h1>
+    <img src="hotel.avif" alt="Header Image">
+</header>
+
+
+
+<section id="about">
+    <h2>tentang hotel mewah Sejahtera</h2>
+    <div class="slider">
+        <div class="slides">
+        <div class="slide">
+            <img src="hotel1.jpeg"/>
+        </div>
+        <div class="slide">
+            <img src="hotel2.jpeg"/>
+        </div>
+        <div class="slide">
+            <img src="hotel3.jpeg"/>
+        </div>
+             
+        </div>
+        </div>
+    </div>
+    <p> Hotel Mewah Sejahtera adalah pilihan utama bagi Anda yang mencari kenyamanan, pelayanan prima, dan suasana yang menyenangkan. Dengan konsep desain modern yang elegan, hotel ini memberikan pengalaman menginap yang luar biasa, baik untuk perjalanan bisnis maupun liburan keluarga.
+        Dengan tiga cabang yang tersebar di lokasi strategis, yaitu Jakarta, Surabaya, dan Bandung, Hotel Mewah Sejahtera memastikan tamu dapat menikmati pelayanan terbaik di beberapa kota besar di Indonesia. Setiap cabang dirancang untuk memberikan kenyamanan maksimal, dilengkapi dengan fasilitas bintang lima, seperti kolam renang outdoor, restoran bergaya internasional, pusat kebugaran modern, serta ruang pertemuan yang memadai.
+        </p>
+        <p> Cabang Jakarta, yang terletak di pusat bisnis kota, menawarkan akses mudah ke pusat perbelanjaan, kawasan hiburan, dan area korporat utama. Hotel ini sangat cocok bagi pebisnis yang membutuhkan akomodasi yang dekat dengan kegiatan profesional.
+        </p>
+
+        <p>Cabang Surabaya, yang terletak di pusat kota Surabaya, menggabungkan kenyamanan dengan kemudahan akses ke tempat wisata, pusat perbelanjaan, dan kawasan industri. Dengan suasana yang modern, cabang ini menjadi pilihan tepat bagi tamu yang ingin menikmati kemegahan kota metropolitan yang dinamis.
+        </p>
+
+        <p>Cabang Bandung menawarkan suasana yang lebih santai dan sejuk, dengan pemandangan pegunungan yang memukau. Terletak di pusat kota Bandung, hotel ini memberikan akses mudah ke berbagai tempat wisata alam dan kuliner terkenal, menjadikannya pilihan ideal bagi wisatawan yang ingin menikmati keindahan kota kembang.
+        </p>
+        <h4> Dengan pelayanan yang ramah dan fasilitas lengkap, Hotel Mewah Sejahtera berkomitmen untuk memberikan pengalaman menginap yang luar biasa di setiap cabangnya. Segera kunjungi kami di Jakarta, Surabaya, atau Bandung dan rasakan kenyamanan yang tak tertandingi!
+        </h4>
+
+    
+    
+        
+</section>
+
+<section id="branches" class="container">
+    <h2>Daftar Cabang</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cabang</th>
+                <th>Alamat</th>
+                <th>Kontak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jakarta</td>
+                <td>Jl. Sudirman No.1</td>
+                <td>021-12345678</td>
+            </tr>
+            <tr>
+                <td>Bandung</td>
+                <td>Jl. Braga No.5</td>
+                <td>022-98765432</td>
+            </tr>
+            <tr>
+                <td>Surabaya</td>
+                <td>Jl. Tunjungan No.8</td>
+                <td>031-11223344</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="promotions" class="container">
+    <h2>Tabel Promosi</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Paket</th>
+                <th>Harga</th>
+                <th>Waktu</th>
+                <th>Syarat & Ketentuan</th>
+                <th>Deskripsi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paket A</td>
+                <td>Rp500.000</td>
+                <td>1 Bulan</td>
+                <td>Berlaku untuk 1 user</td>
+                <td>Akses fitur premium</td>
+            </tr>
+            <tr>
+                <td>Paket B</td>
+                <td>Rp800.000</td>
+                <td>3 Bulan</td>
+                <td>Diskon 20%</td>
+                <td>Pilihan populer</td>
+            </tr>
+            <tr>
+                <td>Paket C</td>
+                <td>Rp1.200.000</td>
+                <td>6 Bulan</td>
+                <td>Bonus tambahan</td>
+                <td>Fitur lengkap</td>
+            </tr>
+            <tr>
+                <td>Paket D</td>
+                <td>Rp2.000.000</td>
+                <td>1 Tahun</td>
+                <td>Support prioritas</td>
+                <td>Cocok untuk bisnis</td>
+            </tr>
+            <tr>
+                <td>Paket E</td>
+                <td>Rp3.000.000</td>
+                <td>2 Tahun</td>
+                <td>Termasuk pembaruan</td>
+                <td>Best value</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="contact" class="container">
+    <h2>Kontak Kami</h2>
+    <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br>
+        <button type="submit" class="button">Kirim</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; hotel mewah Sejahtera </p>
+</footer>
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }, 3000); 
+</script>
+
+</body>
+</html>
